@@ -1,0 +1,90 @@
+/* CSS Reset */
+
+/* Box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, dd, pre, blockquote, figure, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a baseline font size */
+html {
+    font-size: 100%;
+}
+
+li {
+    list-style: none;
+}
+/* Ensure all text elements inherit font-family and color */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Remove list styles */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove quotes from blockquotes and figures */
+blockquote, q {
+    quotes: none;
+}
+
+/* Ensure tables don't have spacing issues */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set default styles for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Make sure images and videos are responsive */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove outline from focused elements */
+*:focus {
+    outline: none;
+}
+
+/* Provide a basic reset for form elements */
+input, textarea, select, button {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* Basic reset for fieldset and legend */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    padding: 0;
+    margin: 0;
+}
+
+/* Ensure proper rendering of responsive elements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
